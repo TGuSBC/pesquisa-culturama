@@ -33,7 +33,6 @@
             <br>
             <label for="image">Upload de foto</label>
             <input id="image" type="file" accept="image/*" name="userImage">
-            <br>
             </fieldset>
 
             <fieldset>
@@ -129,7 +128,17 @@
                 <input id="x" type="checkbox" name="social"
                 value="X">
                 <label for="x">X</label>
-            
+
+                <br>
+
+                <label for="musicStyle">Estilo musical:</label>
+                <input list="styleTypes" type="text" name="userMusicStyle" id="musicStyle">
+                <datalist id="styleTypes">
+                    <option value="Rock"></option>
+                    <option value="Trap"></option>
+                    <option value="Pop"></option>
+                    <option value="Eletronica"></option>
+                </datalist>
             
             </fieldset>
 
